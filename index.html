@@ -4,84 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NetFlix</title>
-    <style>
-        body{
-            color: white;
-            background-color: rgb(20, 20, 20);
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        header{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-        }
-        main{
-            display: flex;
-            flex-direction: column;
-            width: 90%;
-            margin: 0 auto;
-        }
-        main > span{
-            font-size: 1.5rem;
-        }
-
-        .premium{
-            display: flex;
-            flex-direction: row;
-            padding: 10px ;
-        }
-        .premium > span{
-            font-size: 1.6rem;
-            padding-left: 10px;
-        }
-        .input{
-            padding-right: 40%;
-        }
-        .input > input[type="text"] {
-            background-color: rgb(20, 20, 20);
-            border: 1px solid gray;
-            border-radius: 10px;
-            font-size: large;
-            width: 150%;
-        }
-        .channels-logos{
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-        }
-        .video{
-            display: flex;
-            flex-direction: column;
-            width: 28%;
-            padding: 10px;
-        }
-        .video > img{
-            border-radius: 5px;
-        }
-
-        .video-scroll{
-            display: flex;
-            overflow-x: auto;
-            white-space: nowrap; 
-            flex: 0 1 auto;
-            padding: 0 0 15px 0;
-            width: 100%;
-        }
-        .barra-header{
-
-        }
-        .barra-header > span{
-            padding: 5px 15px;
-            font-size: 1.2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
     <div class="grid-container">
         <header>
             <div class="premium">
-                <img src="   https://cdn-icons-png.flaticon.com/512/5977/5977590.png " width="100" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png " width="100" alt="">
             </div>
             <div class="barra-header">
                 <span>Home</span>
@@ -99,10 +28,10 @@
                     <img src="https://www.crossoveruniversonerd.it/data/upload/hd/youngsheldon-2000.jpg" alt="">
                 </div>
                 <div class="video">
-                    <img src="bigbang-theory.jpg" alt="">
+                    <img src="./images/bigbang-theory.jpg" alt="">
                 </div>
                 <div class="video">
-                    <img src="simpsons.webp" alt="">
+                    <img src="./images/simpsons.webp" alt="">
                 </div>
                 <div class="video">
                     <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5741B73D5AE6EF35E2F6C91ADAFC4A179E2A9AD018CE29E981DA38CCDA162CD4/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" alt="">
@@ -112,13 +41,13 @@
             <span>Science Fiction</span>
             <div class="video-scroll">
                 <div class="video">
-                    <img src="pieghe-tempo.jpg" alt="">
+                    <img src="./images/pieghe-tempo.jpg" alt="">
                 </div>
                 <div class="video">
                     <img src="https://media.thenerdstash.com/wp-content/uploads/2021/12/the-matrix.jpg" alt="">
                 </div>
                 <div class="video">
-                    <img src="ghost-whisperer.jpg" alt="">
+                    <img src="./images/ghost-whisperer.jpg" alt="">
                 </div>
                 <div class="video">
                     <img src="https://www.justnerd.it/wp-content/uploads/2019/08/another-life-cover.jpg" alt="">
