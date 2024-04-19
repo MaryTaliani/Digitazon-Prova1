@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix prova3</title>
+    <style>
+        body{
+            color: white;
+            background-color: rgb(20, 20, 20);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-image: url("flying-unicorn.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            height: 70px;
+        }
+        .barra-header > span{
+            padding: 5px 15px;
+            font-size: 1.2rem;
+        }
+        .header-left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header-left > img{
+            padding-left: 30px;
+        }
+        .header-right{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .header-right > img{
+            margin-right: 15px;
+        }
+        main{
+            width: 42%;
+            padding: 10% 5%;
+            display: flex;
+            flex-direction: column;
+        }
+        main > img{
+            width: 30%;
+        }
+        h1{
+            padding: 0;
+            margin: 10px 0 0 0;
+            font-size: 4.5rem;
+            line-height: 0.9;
+        }
+
+        .details{
+            padding-top: 10px;
+            font-size: 1.1rem;
+            color: rgb(170, 170, 170);
+        }
+        .details > span{
+            margin-right: 10px;
+        }
+        #green{
+            color: green;
+        }
+
+        .main-text > p{
+            color: rgb(200, 200, 200);
+            padding: 10px 0px 8% 0px;
+            
+        }
+        button{
+            border: 0;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+        }
+        .btn-white{
+            background-color: white;
+            color: black;
+        }
+        .btn-gray{
+            background-color: gray;
+            color: white;
+        }
+        main > span{
+            margin-top: 10px;
+        }
+        .big-plus{
+            font-size: 1.3rem;
+            vertical-align: middle;
+        }
+        .barra-footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 0, 0, 0.5);
+            height: 60px;
+        }
+        .barra-footer > span{
+            margin: 10px 30px;
+        }
+        footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        #red-underline{
+            border-bottom: 2px solid red;
+            
+        }
+        #plus-13{
+            border: 1px solid white;
+            text-align: center;
+        }
+        .triangle{
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="   https://cdn-icons-png.flaticon.com/512/5977/5977590.png " width="100" alt="">
+            <div class="barra-header">
+                <span>Home</span>
+                <span>TV Shows</span>
+                <span>Movie Shows</span>
+                <span>Recently Added</span>
+                <span>My List</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <img src="search.png" width="20px" alt="">
+            <img src="bell.png" width="20px" alt="">
+            <img src="user.png" width="20px" alt="">
+        </div>
+    </header>
+    <main>
+        <img src="net-series.png" alt="">
+        <h1>YOUR TITLE HERE</h1>
+        <div class="details">
+            <span id="green">99% Match</span>
+            <span>2022</span>
+            <span id="plus-13">13+</span>
+            <span>5 Seasons</span>
+        </div>
+        <div class="main-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, similique aliquam facere molestias perspiciatis rem atque sint ullam quia architecto asperiores obcaecati hic adipisci voluptate ab dolorum natus animi culpa!</p>
+        </div>
+
+        <div class="buttons">
+            <button class="btn-white"><span class="triangle big-plus" >&rtrif;</span> Play</button>
+            <button class="btn-gray"><span class="big-plus">+</span> My List</button>
+        </div>
+        <span>Starting: </span>
+        <span>Genre: </span>
+    </main>
+    <footer>
+        <div class="barra-footer">
+            <span id="red-underline" >OVERVIEW</span>
+            <span>EPISODES</span>
+            <span>MORE LIKE THIS</span>
+            <span>DETAILS</span>
+        </div>
+    </footer>
+</body>
+</html>
